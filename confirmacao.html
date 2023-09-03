@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt&en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obrigado!</title>
+    <style>
+        /* Estilos para o fundo */
+        body {
+            background-image: url('logo_adraga.png'); /* Adicione o caminho da sua imagem de fundo */
+            background-size: 100%150%;
+            background-repeat: no-repeat;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        /* Estilos para a caixa de agradecimento */
+        .thank-you-box {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            width: 300px;
+        }
+
+        .thank-you-button {
+            background-color: #333;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 14px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .thank-you-button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="thank-you-box">
+        <h1>Obrigado pela sua reserva!</h1>
+        <p>Entraremos em contato em breve para dar uma confirmação.</p>
+        <button class="thank-you-button" onclick="location.href='rest2v.html'">Voltar ao Site</button>
+    </div>
+</body>
+</html>
